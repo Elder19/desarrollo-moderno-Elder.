@@ -210,8 +210,8 @@ Existen diversas plataformas o servicios que implementan como Auth0 y Firebase A
 
 ### a. Definición de Headless CMS vs CMS tradicional.
 
-    _Headless CMS:_ Es un repositotio en que el contenido se entrega a partir de API, desacoplando la capa de presentacion fronted del backend por esta razon se le llama sin cabeza ya que el fronted se acopla por separado.
-    _CMS tradicional:_ En el sistema tradicional es un todo en uno ya que el fronted y backend estan acoplados dentro de la misma plataforma.
+_Headless CMS:_ Es un repositotio en que el contenido se entrega a partir de API, desacoplando la capa de presentacion fronted del backend por esta razon se le llama sin cabeza ya que el fronted se acopla por separado.
+_CMS tradicional:_ En el sistema tradicional es un todo en uno ya que el fronted y backend estan acoplados dentro de la misma plataforma.
 
 ### b. Arquitectura basada en APIs.
 
@@ -282,7 +282,15 @@ desarrollo web se utilizan para automatizar todo el proceso de construcción, pr
 Es un proceso donde el codigo de un poyecto pasa de desarrollo a produccion de forma automatica implentando CI/CD principalmente se hace algun commit de algun cambio mendiante la integracion continua se ejecutan pruebas automaticas y compila para detectar errores antes de ir a produccion mendiante CD si las pruebas son exitosas prepara el paquete para despliegue se publica el cambio en el servidor y por ultimo se verifica que todo funcione correctamente.
 
 ### d. Documentar el proceso seguido para desplegar la parte 2 del laboratorio.
-
+1- Cree el repositorio GitHub con el nombre (desarrollo-moderno-nombre.)
+2-Haga ingreso de README.md y el index.html proporcionados por el docente.
+3-Haga commit para guardar los cambios. 
+4-Ingrese a https://www.netlify.com/ e inicie sesion.
+5- En el meno superior izquierdo seleccione la opcion (Proyetos)
+6-Seleccione agregar proyecto.
+7-Seleccione Importar desde GItHub 
+8-Busque el repositorio que contiene el proyecto.
+9-Ingrese un nombre y presione desplegar.
 ## 6.Bibliografia
 
 About the New Architecture · React Native. (2025, 15 agosto). https://reactnative.dev/architecture/landing-page<br>
