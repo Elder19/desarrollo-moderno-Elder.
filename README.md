@@ -282,15 +282,15 @@ desarrollo web se utilizan para automatizar todo el proceso de construcción, pr
 Es un proceso donde el codigo de un poyecto pasa de desarrollo a produccion de forma automatica implentando CI/CD principalmente se hace algun commit de algun cambio mendiante la integracion continua se ejecutan pruebas automaticas y compila para detectar errores antes de ir a produccion mendiante CD si las pruebas son exitosas prepara el paquete para despliegue se publica el cambio en el servidor y por ultimo se verifica que todo funcione correctamente.
 
 ### d. Documentar el proceso seguido para desplegar la parte 2 del laboratorio.
-1- Cree el repositorio GitHub con el nombre (desarrollo-moderno-nombre.)
-2-Haga ingreso de README.md y el index.html proporcionados por el docente.
-3-Haga commit para guardar los cambios. 
-4-Ingrese a https://www.netlify.com/ e inicie sesion.
-5- En el meno superior izquierdo seleccione la opcion (Proyetos)
-6-Seleccione agregar proyecto.
-7-Seleccione Importar desde GItHub 
-8-Busque el repositorio que contiene el proyecto.
-9-Ingrese un nombre y presione desplegar.
+1- Cree el repositorio GitHub con el nombre (desarrollo-moderno-nombre.)<br>
+2-Haga ingreso de README.md y el index.html proporcionados por el docente.<br>
+3-Haga commit para guardar los cambios. <br>
+4-Ingrese a https://www.netlify.com/ e inicie sesion.<br>
+5- En el meno superior izquierdo seleccione la opcion (Proyetos)<br>
+6-Seleccione agregar proyecto.<br>
+7-Seleccione Importar desde GItHub <br>
+8-Busque el repositorio que contiene el proyecto.<br>
+9-Ingrese un nombre y presione desplegar.<br>
 ## 6.Bibliografia
 
 About the New Architecture · React Native. (2025, 15 agosto). https://reactnative.dev/architecture/landing-page<br>
@@ -307,3 +307,4 @@ Lahuerta, C. (2025, 5 marzo). CMS: características, ventajas y desventajas. Idi
 <br>Qué es una pasarela de pago? | Checkout.com. (s. f.). https://www.checkout.com/es-es/blog/que-es-pasarela-pago
 <br>Xicara, E. (2025, 20 junio). Stripe o PayPal: Desventajas de usarlos en la región. Qué considerar antes de elegir una pasarela de pagos. Tilopay Connect. https://connect.tilopay.com/es-cr/stripe-o-paypal/
 <br>Atlassian. (s. f.-a). Continuous integration vs. delivery vs. deployment | Atlassian. https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment
+
