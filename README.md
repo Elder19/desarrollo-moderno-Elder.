@@ -4,13 +4,13 @@
 
 ### IC8057 - Introducción al Desarrollo de Páginas Web
 
-**Laboratorio 1**
-
-**Escuela de Computación** – Bachillerato en Ingeniería en Computación
+**Laboratorio 1 – Tecnologías Web Modernas**
 
 **Estudiante**: Elder Leon Perez
 
 **Carnet**: 2023166120
+
+**Curso**: IC-8057 – Introducción al Desarrollo de Páginas Web
 
 ---
 
@@ -18,13 +18,13 @@
 
 ### a. ¿Qué es un framework y qué problema resuelve?
 
-        Segun AWS se define como el conjunto de conceptos practicas o criterios entandarizados que se enfocan en resolver una problematica, por ejemplo evitar escribir codigo repetitivo ademas de implementar buenas practicas como sistemas MVC facilitando el orden del proyecto, de igual forma permite a los desarrolladores trabajar mas rapido debido a que el uso de dichas herramientas disminuyen grandes bloques de codigo en sentencias mas pequeñas.
+Segun AWS se define como el conjunto de conceptos practicas o criterios entandarizados que se enfocan en resolver una problematica, por ejemplo evitar escribir codigo repetitivo ademas de implementar buenas practicas como sistemas MVC facilitando el orden del proyecto, de igual forma permite a los desarrolladores trabajar mas rapido debido a que el uso de dichas herramientas disminuyen grandes bloques de codigo en sentencias mas pequeñas.
 
-    **Ejemplo:**  React native es un framework de proramacion de aplicaciones nativas multiplataforma basado en JavaScript y ReactJS, los cuales cuentan con "VirtualDom" en e cual se encuentra JSX en el que se definen documentos HTML y mediante JavaScript se tranforman en componentes en la vista.
+**Ejemplo:** React native es un framework de proramacion de aplicaciones nativas multiplataforma basado en JavaScript y ReactJS, los cuales cuentan con "VirtualDom" en e cual se encuentra JSX en el que se definen documentos HTML y mediante JavaScript se tranforman en componentes en la vista.
 
 ### b. Arquitectura general y enfoque (MVC, SPA, SSR, etc.).
 
-        Segun React Native Docs se utiliza un sistema parecido al SPA que se basa en actualiazar la pagina dinamicamente sin nesecidad de recargar todas la pagina mediante puentes asincronicos, es posible implementarlo de forma adaptada a modelos MVC sin necesidad del SSR de forma interna implementa el uso de Bridge o JSI en la nueva arquitectura, la cual conecta el codigo con los componentes permitiendo el desarrollo de aplicaciones.
+Segun React Native Docs se utiliza un sistema parecido al SPA que se basa en actualiazar la pagina dinamicamente sin nesecidad de recargar todas la pagina mediante puentes asincronicos, es posible implementarlo de forma adaptada a modelos MVC sin necesidad del SSR de forma interna implementa el uso de Bridge o JSI en la nueva arquitectura, la cual conecta el codigo con los componentes permitiendo el desarrollo de aplicaciones.
 
 ### c. Ejemplo práctico documentado (estructura de proyecto, fragmento de código comentado).
 
@@ -137,8 +137,8 @@ export default function LoginScreen() {
 
 ### a. ¿Qué es el control de versiones y por qué es esencial?
 
-        Se define comom la practica de rastrear y gestionar los cambios en un proyecto de software, se implementea mediante software que ayudan a los esquipos de trabajo a gestionar los cambios en el codigo fuente a lo largo del ciclo de vida del software.
-        El sistema de control de versiones hace un seguimiento de todas modificaciones que se realizan en el codigo y en caso de comenterse un error permite a los desarrolladores ir hacia atras y recuperar la ultima version estable del programa sin perder la totalidad de la prodiccion.
+Se define comom la practica de rastrear y gestionar los cambios en un proyecto de software, se implementea mediante software que ayudan a los esquipos de trabajo a gestionar los cambios en el codigo fuente a lo largo del ciclo de vida del software.
+El sistema de control de versiones hace un seguimiento de todas modificaciones que se realizan en el codigo y en caso de comenterse un error permite a los desarrolladores ir hacia atras y recuperar la ultima version estable del programa sin perder la totalidad de la prodiccion.
 
 ### b. Conceptos clave: repositorio, commit, branch, merge, pull request.
 
@@ -161,8 +161,7 @@ _Inicializacion:_ git init "se utiliza para crear el repositorio"<br>
 
 _Commits:_ git add => git commit -m "Mensaje descriptivo " " Se implementa para guardar los cambios realizados"<br>
 
-_Ramas:_ git branch nombre => git checkout nombre "implementado para crear ramas y no poner en peligro el proyecto principal"
-<br>
+_Ramas:_ git branch nombre => git checkout nombre "implementado para crear ramas y no poner en peligro el proyecto principal" <br>
 
 ### e. Herramientas recomendadas (GitHub, GitLab, Bitbucket).
 
@@ -185,38 +184,38 @@ _JWT:_ Formato estándar que se utiliza para transmitir información de forma se
 _OAuth:_ Protocolo estándar de la industria para la autorizació se centra en la simplicidad del desarrollador cliente al tiempo que proporciona flujos de autorización específicos para aplicaciones web, aplicaciones de escritorio, teléfonos móviles y dispositivos de sala de estar.<br>
 
 ### b. Diagrama de flujo explicativo del proceso de autenticación con JWT.
-flowchart TD
-    A[Inicio del proceso] --> B[Genera JWT firmado]
-    B --> C[Envía JWT al endpoint de tokens]
-    C --> D[Salesforce recibe el JWT]
-    D --> E[Valida firma y parámetros]
-    E --> F{¿JWT válido y aplicación autorizada?}
-    F -- Sí --> G[Emite Access Token]
-    G --> H[Accede a recursos protegidos]
-    F -- No --> I[Solicitud rechazada]
 
+    flowchart TD
+        A[Inicio del proceso] --> B[Genera JWT firmado]
+        B --> C[Envía JWT al endpoint de tokens]
+        C --> D[Salesforce recibe el JWT]
+        D --> E[Valida firma y parámetros]
+        E --> F{¿JWT válido y aplicación autorizada?}
+        F -- Sí --> G[Emite Access Token]
+        G --> H[Accede a recursos protegidos]
+        F -- No --> I[Solicitud rechazada]
 
 ### c. Buenas prácticas en seguridad web.
 
-1. Implementar politicas estrictas de seguridad de contenidos(CSP)
-2. Activar HTTP Strict Transport Security (HSTS)
-3. Auditorías de seguridad y pruebas de penetración periódicas
-4. Utilizar la Integridad de Subrecursos (SRI) para guiones externos
+    1. Implementar politicas estrictas de seguridad de contenidos(CSP)
+    2. Activar HTTP Strict Transport Security (HSTS)
+    3. Auditorías de seguridad y pruebas de penetración periódicas
+    4. Utilizar la Integridad de Subrecursos (SRI) para guiones externos
 
 ### d. Aplicaciones reales en plataformas modernas.
 
-    Existen diversas plataformas o servicios que implementan como Auth0 y Firebase Authentication que implementan tokens firmados ara la autenticacion.
+Existen diversas plataformas o servicios que implementan como Auth0 y Firebase Authentication que implementan tokens firmados ara la autenticacion.
 
 ## 4. Gestores de contenido desacoplados (Headless CMS)
 
 ### a. Definición de Headless CMS vs CMS tradicional.
 
-_Headless CMS:_ Es un repositotio en que el contenido se entrega a partir de API, desacoplando la capa de presentacion fronted del backend por esta razon se le llama sin cabeza ya que el fronted se acopla por separado.
-_CMS tradicional:_ En el sistema tradicional es un todo en uno ya que el fronted y backend estan acoplados dentro de la misma plataforma.
+    _Headless CMS:_ Es un repositotio en que el contenido se entrega a partir de API, desacoplando la capa de presentacion fronted del backend por esta razon se le llama sin cabeza ya que el fronted se acopla por separado.
+    _CMS tradicional:_ En el sistema tradicional es un todo en uno ya que el fronted y backend estan acoplados dentro de la misma plataforma.
 
 ### b. Arquitectura basada en APIs.
 
-    Es un modelo donde la aplicaciones se construyen idependientemente y se cumunica a traves de APIs, en este enfoque el backend contiene la logica y el acceso a datos mediante (API REST o GraphQL) y la vista consume las APIs para mostrar la informacion.Este tipo de arquitectura permite a los desarrolladores desacoplar las interfaces facilitando aspectos como mantenimiento y reutilizacion de codigo.
+Es un modelo donde la aplicaciones se construyen idependientemente y se cumunica a traves de APIs, en este enfoque el backend contiene la logica y el acceso a datos mediante (API REST o GraphQL) y la vista consume las APIs para mostrar la informacion.Este tipo de arquitectura permite a los desarrolladores desacoplar las interfaces facilitando aspectos como mantenimiento y reutilizacion de codigo.
 
 ### c. Ventajas, limitaciones y casos de uso comunes.
 
@@ -228,7 +227,7 @@ _CMS tradicional:_ En el sistema tradicional es un todo en uno ya que el fronted
 
 ### d. Ejemplo de cómo se conecta el frontend a un CMS headless.
 
-    Con react es posible hacer la solicitud con una peticion HTTP montando el componente y una peticion fectch que recibe la informacion en Json y luego se renderiza la inforamacion
+Con react es posible hacer la solicitud con una peticion HTTP montando el componente y una peticion fectch que recibe la informacion en Json y luego se renderiza la inforamacion
 
 ---
 
@@ -236,7 +235,7 @@ _CMS tradicional:_ En el sistema tradicional es un todo en uno ya que el fronted
 
 ### a. ¿Qué es una pasarela de pago? ¿Qué rol cumple en una aplicación moderna?
 
-    Se define como el proceso tecnologico que permite aceptar pagos con diferentes targetas bancarias actuando como puente entre el comercio y el cliente garantizando el pago exitoso.
+Se define como el proceso tecnologico que permite aceptar pagos con diferentes targetas bancarias actuando como puente entre el comercio y el cliente garantizando el pago exitoso.
 
 ### b. Requisitos comunes: cuenta de comercio, seguridad, integración técnica.
 
